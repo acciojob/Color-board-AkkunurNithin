@@ -9,11 +9,11 @@
 
         .container {
             display: grid;
-            grid-template-columns: repeat(40, 20px);
+            grid-template-columns: repeat(40, 10px);
             gap: 2px;
         }
         .square {
             background-color: gray;
-            height: 20px;
+            height: 10px;
             transition: background-color 1s ease;
         }
