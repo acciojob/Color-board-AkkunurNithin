@@ -3,7 +3,7 @@ const container = document.querySelector(".container");
 
         for(let i=0; i<800; i++){
             const box = document.createElement("div")
-            box.className = "box";
+            box.className = "square";
 
             box.addEventListener("mouseover", function(){
                 box.style.backgroundColor = getcolor()
