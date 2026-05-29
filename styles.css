@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+  body{
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(40, 20px);
+            gap: 2px;
+        }
+        .box {
+            background-color: gray;
+            height: 20px;
+            transition: background-color 1s ease;
+        }
